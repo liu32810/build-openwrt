@@ -40,3 +40,4 @@ svn co https://github.com/Lienol/openwrt-packages/tree/22.03/utils/{containerd,l
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
 # ------------------------------- Other ends -------------------------------
+echo 'src-git amlogic https://github.com/ophub/luci-app-amlogic' >>feeds.conf.default
